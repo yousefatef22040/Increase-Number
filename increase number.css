@@ -1,0 +1,37 @@
+section:first-of-type{
+    background-color: #aaa;
+    height: 500px;
+    text-align: center;
+    font-size: 40px;
+    
+}
+section:nth-child(2){
+    background-color: #bbb;
+    height: 500px;
+    text-align: center;
+    font-size: 40px;
+}
+section:nth-child(3){
+    background-color: #ccc;
+    height: 500px;
+    text-align: center;
+    font-size: 40px;
+}
+section:last-of-type{
+    background-color: #ddd;
+    height: 500px;
+    text-align: center;
+    font-size: 40px;
+}
+.nums{
+    width: 400px;
+    text-align: center;
+    justify-content: center;
+    display: inline-flex;
+}
+.nums .num{
+    flex: 1;
+    text-align: center;
+    font-size: 40px;
+    padding: 20px;
+}
